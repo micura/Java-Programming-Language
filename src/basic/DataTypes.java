@@ -50,6 +50,16 @@ class OuterClass {
         public void printInnerVariable() {
             System.out.println("\nWe reach the internal variable from Inner class--> " + innerVariable + "\n");
         }
+
+        public void printNonPrimitives() {
+            String firstString = "String Constant Pool";
+            String secondString = new String("Heap String");
+            System.out.println("This is a String type: " + firstString);
+            System.out.println("This is a String type: " + secondString);
+
+            Integer integerVariable = 128;
+            System.out.println("This is an Integer type: " + integerVariable);
+        }
     }
 
     void getPrimitives() {
@@ -58,6 +68,7 @@ class OuterClass {
 
         NonPrimitiveTypes nonPrimitiveTypes = new NonPrimitiveTypes();
         nonPrimitiveTypes.printInnerVariable();
+        nonPrimitiveTypes.printNonPrimitives();
     }
 }
 
