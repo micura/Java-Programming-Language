@@ -1,5 +1,3 @@
-package basic;
-
 /**
  * This class include:
  * - Java data types

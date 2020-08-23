@@ -1,7 +1,6 @@
-package basic;
-
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ArrayVsArrayList {
     public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class ArrayVsArrayList {
         System.out.println(Arrays.toString(array));
 
         //The ArrayList has dinamic size
-        ArrayList<String> arrayList = new ArrayList<String>();
+        List<String> arrayList = new ArrayList<String>();
         arrayList.add("firstElement");
         arrayList.add("secondElement");
         arrayList.add("thirdElement");
