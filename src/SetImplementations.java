@@ -41,7 +41,7 @@ public class SetImplementations {
         System.out.println("The current order is by TreeSet: ");
         //An ordered Set, the elements order by
         //Egy rendezett halmaz, a belarakott elemeket valamilyen szempont szerint sorrendbe rakja.
-        for(String name : treeSet){
+        for(String name : treeSet) {
             System.out.println(name);
         }
     }
