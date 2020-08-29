@@ -1,3 +1,5 @@
+package DataTypes;
+
 /**
  * This class include:
  * - Java data types
